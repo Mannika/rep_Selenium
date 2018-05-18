@@ -30,6 +30,7 @@ public class LoginTestMe {
 	@Test(priority=2)
 	public void select_category()
 	{
+		
 		WebElement category = driver.findElement(By.xpath("//*[@id=\"menu3\"]/li[2]/a/span"));
 		Actions act = new Actions(driver);
 		act.moveToElement(category).click().build().perform();
