@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12180" started-at="2018-05-17T11:53:52Z" finished-at="2018-05-17T11:54:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12180" started-at="2018-05-17T11:53:52Z" finished-at="2018-05-17T11:54:05Z">
+      <class name="utility.LoginTestMe">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:utility.LoginTestMe@1a968a59]" name="beforeTest" is-config="true" duration-ms="7752" started-at="2018-05-17T17:23:52Z" finished-at="2018-05-17T17:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test_me_login(java.lang.String, java.lang.String)[pri:0, instance:utility.LoginTestMe@1a968a59]" name="test_me_login" duration-ms="1658" started-at="2018-05-17T17:24:02Z" data-provider="logindata" finished-at="2018-05-17T17:24:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lalitha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_me_login -->
+        <test-method status="PASS" signature="select_category()[pri:2, instance:utility.LoginTestMe@1a968a59]" name="select_category" duration-ms="735" started-at="2018-05-17T17:24:04Z" finished-at="2018-05-17T17:24:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_category -->
+        <test-method status="PASS" signature="add_To_Cart()[pri:3, instance:utility.LoginTestMe@1a968a59]" name="add_To_Cart" duration-ms="257" started-at="2018-05-17T17:24:04Z" finished-at="2018-05-17T17:24:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_To_Cart -->
+      </class> <!-- utility.LoginTestMe -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
